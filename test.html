@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penarikan</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .logo {
+            max-width: 150px;
+        }
+        
+        .nama-tanggal {
+            margin-left: 20px; 
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="flex justify-between items-center">
+        <div class="w-1/4">
+            <div>
+                <img src="logo-placeholder.png" alt="Logo Perusahaan" class="max-w-150 items-center">
+            </div>
+        </div>
+        <div class="w-3/4">
+            <div class="items-start nama-tanggal">
+                <div class="pr-80 pl-7">
+                    <h1 class="text-2xl font-semibold text-center">Nama Perusahaan</h1>
+                    <p class="text-lg text-center">Tanggal Penarikan: 17 Oktober 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table class="w-full mt-4 border">
+        <thead>
+            <tr>
+                <th class="p-3 border bg-gray-100">Code Item</th>
+                <th class="p-3 border bg-gray-100">Item Name</th>
+                <th class="p-3 border bg-gray-100">Category</th>
+                <th class="p-3 border bg-gray-100">Date of Purchase</th>
+                <th class="p-3 border bg-gray-100">Price</th>
+                <th class="p-3 border bg-gray-100">Adjustment Date</th>
+                <th class="p-3 border bg-gray-100">Location</th>
+                <th class="p-3 border bg-gray-100">Condition</th>
+                <th class="p-3 border bg-gray-100">Photo</th>
+                <th class="p-3 border bg-gray-100">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data Item 1 -->
+            <tr>
+                <td class="border px-4 py-2">20230905TK1HW0001</td>
+                <td class="border px-4 py-2">Contoh</td>
+                <td class="border px-4 py-2">Hardware</td>
+                <td class="border px-4 py-2">Toko 1</td>
+                <td class="border px-4 py-2">Old</td>
+                <td class="border px-4 py-2">2023-09-01</td>
+                <td class="border px-4 py-2">10000</td>
+                <td class="border px-4 py-2">2023-09-05</td>
+                <td class="border px-4 py-2">-</td>
+                <td class="border px-4 py-2">1</td>
+            </tr>
+
+            <!-- Data Item 2 -->
+            <tr>
+                <td class="border px-4 py-2">20230905TK1SW0002</td>
+                <td class="border px-4 py-2">Contoh</td>
+                <td class="border px-4 py-2">Software</td>
+                <td class="border px-4 py-2">Toko 1</td>
+                <td class="border px-4 py-2">New</td>
+                <td class="border px-4 py-2">2023-09-05</td>
+                <td class="border px-4 py-2">10000</td>
+                <td class="border px-4 py-2">2023-09-15</td>
+                <td class="border px-4 py-2">-</td>
+                <td class="border px-4 py-2">1</td>
+            </tr>
+
+            <!-- Data Item 3 -->
+            <tr>
+                <td class="border px-4 py-2">20230920TK2HW0003</td>
+                <td class="border px-4 py-2">Contoh</td>
+                <td class="border px-4 py-2">Hardware</td>
+                <td class="border px-4 py-2">Toko 2</td>
+                <td class="border px-4 py-2">New</td>
+                <td class="border px-4 py-2">2023-09-11</td>
+                <td class="border px-4 py-2">20000</td>
+                <td class="border px-4 py-2">2023-09-28</td>
+                <td class="border px-4 py-2">-</td>
+                <td class="border px-4 py-2">2</td>
+            </tr>
+
+            <!-- Data Item 4 -->
+            <tr>
+                <td class="border px-4 py-2">20230905TK1HW0004</td>
+                <td class="border px-4 py-2">Contoh</td>
+                <td class="border px-4 py-2">Hardware</td>
+                <td class="border px-4 py-2">Toko 1</td>
+                <td class="border px-4 py-2">Repaired</td>
+                <td class="border px-4 py-2">2023-09-05</td>
+                <td class="border px-4 py-2">10000</td>
+                <td class="border px-4 py-2">2023-09-15</td>
+                <td class="border px-4 py-2">-</td>
+                <td class="border px-4 py-2">3</td>
+            </tr>
+
+            <!-- Data Item 5 -->
+            <tr>
+                <td class="border px-4 py-2">20230920TK2SW0005</td>
+                <td class="border px-4 py-2">Contoh</td>
+                <td class="border px-4 py-2">Software</td>
+                <td class="border px-4 py-2">Toko 2</td>
+                <td class="border px-4 py-2">Moved</td>
+                <td class="border px-4 py-2">2023-09-11</td>
+                <td class="border px-4 py-2">20000</td>
+                <td class="border px-4 py-2">2023-09-28</td>
+                <td class="border px-4 py-2">-</td>
+                <td class="border px-4 py-2">4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="text-right pt-10 mr-10">
+        <div class="float-right">
+            <p class="text-left">Petugas : <br><br><br> <b class="items-start">________________________</b></p>
+        </div>
+
+</body>
+</html>
