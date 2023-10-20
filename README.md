@@ -13,23 +13,23 @@ node_modules
 public
 src
   |-components
-				|-common
-					|-header.js //template header
-		 			|-sidebar.css 
-					|-sidebar.js  //template sidebar
-				|-dashboard
-			  	|-dashboard.js //template dashboard
-				|-datamaster
-			  	|-adddata.js // form add data
-				  |-datamaster.js // template datamaster
-			 	  |-editdata.js // form edit data
-				|-login
-			  	|-login.js // template login
-				|-report
-			  	|-printreport.js // halaman tempat menampilkan data yang ingin di print
-				  |-report.js // template report
-				|-user
-			  	|-user.js //template halaman user
+	|-common
+		|-header.js //template header
+		|-sidebar.css 
+		|-sidebar.js  //template sidebar
+	|-dashboard
+		|-dashboard.js //template dashboard
+	|-datamaster
+		|-adddata.js // form add data
+		|-datamaster.js // template datamaster
+		|-editdata.js // form edit data
+	|-login
+		|-login.js // template login
+	|-report
+		|-printreport.js // halaman tempat menampilkan data yang ingin di print
+		|-report.js // template report
+	|-user
+		|-user.js //template halaman user
   |-App.js
   |-index.css
   |-index.js
